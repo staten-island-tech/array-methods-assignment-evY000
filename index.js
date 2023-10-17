@@ -20,21 +20,28 @@ LastName: 'James',
 position: 'SF', 
 PPG:'28.9',
 APG:'6.8', 
-RBPG:'8.3'},
+RBPG:'8.3',
+Stuff:["70", "80", "90"]},
 
 {FirstName: 'Giannis', 
 LastName: 'Antetokonumpo',
  position: 'PF', 
  PPG:'31.1', 
  APG:'5.7',
- RBPG:'11.8'},
+ RBPG:'11.8',
+ Stuff:["100", "140", "1260"]},
 
 {FirstName: 'Nikola',
 LastName: 'Jokic',
 position: 'C', 
 PPG:'24.5',
 APG:'9.8',
-RBPG:'11.8'}];
+RBPG:'11.8',
+Stuff:["102", "4340", "6460"]}];
 
-Players.forEach((player) => console.log(player.LastName));
-Players.forEach((player) => console.log(player.Players));
+
+Players.forEach((players) => console.log(players.LastName));
+
+Players.forEach(calculate => {
+   calculate.Stuff.forEach(result=> {console.log(result)}) 
+});
