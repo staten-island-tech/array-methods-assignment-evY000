@@ -41,4 +41,4 @@ Stuff:["102", "4340", "6460"]}];
 
 
 Players.forEach((player) => console.log(player.LastName));
-
+const thing = Players.forEach((player) => console.log(player.Stuff)).forEach((player) => console.log(player.Stuff));
