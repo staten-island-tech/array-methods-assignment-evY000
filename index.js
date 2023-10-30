@@ -40,8 +40,5 @@ RBPG:'11.8',
 Stuff:["102", "4340", "6460"]}];
 
 
-Players.forEach((players) => console.log(players.LastName));
+Players.forEach((player) => console.log(player.LastName));
 
-Players.forEach(calculate => {
-   calculate.Stuff.forEach(result=> {console.log(result)}) 
-});
