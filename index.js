@@ -42,3 +42,7 @@ Stuff:["102", "4340", "6460"]}];
 
 Players.forEach((player) => console.log(player.LastName));
 
+Players.forEach(calculate => {
+    calculate.Stuff.forEach(calculate=> {console.log(calculate)}) 
+ });
+  const CalculationFilter = Players.filter( player => player.APG > 6).forEach((player) => console.log(player.FirstName));
